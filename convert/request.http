@@ -1,0 +1,117 @@
+POST  http://localhost:4000/api/user
+Content-Type: application/json
+
+{
+    "email": "namnam@gmail.com",
+    "password": "namnam",
+    "fullName": "namnam"
+}
+
+###
+POST  http://localhost:4000/api/login
+Content-Type: application/json
+
+{
+    "email": "namnam@gmail.com",
+    "password": "namnam"
+}
+
+###
+POST  http://localhost:4000/api/login
+Content-Type: application/json
+
+{
+    "email": "nam@gmail.com",
+    "password": "namnam"
+}
+
+###
+GET http://localhost:4000/api/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTQ0OWM4OTViYTg0NThkODZkNmUyZSIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoibmFtbmFtQGdtYWlsLmNvbSIsImlhdCI6MTY1Mzg4NTU2MiwiZXhwIjoxNjUzOTcxOTYyfQ.qLUCzfKbykZMB8HChW_Vi4ekeRTZyME0rtzk2YE1MtY
+
+###
+DELETE  http://localhost:4000/api/user/628d95d5d96d030593e6315f
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGQ5NTU4NDFhNGRiNWU5YjM0ZGRmOCIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoibmFtbmFtQGdtYWlsLmNvbSIsImlhdCI6MTY1MzYxNzIyMCwiZXhwIjoxNjUzNzAzNjIwfQ.6Nu8AEGFxezOQhbP1X_ekM_KpPwyNMNftfLtvEm_OY8
+
+###
+PUT http://localhost:4000/api/user/628afa61ad075e6a46d3cb4b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGE4ODU0ODk2NjlkOTk3YmQ1ZWY0MCIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiTWFuaCIsImlhdCI6MTY1MzI3NTI2NSwiZXhwIjoxNjUzMzYxNjY1fQ.kqj5wh5G6BaXpqjSmJRW8BeLKz16CXVP28S2jBqhz-0
+{
+    "email": "Ha",
+    "name": "Ha"
+}
+
+###
+POST  http://localhost:4000/api/alo
+Content-Type: application/json
+
+{
+    "title": "a",
+    "content": "a"
+}
+
+###
+GET http://localhost:4000/api/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGM2NWQ1ZjBmZTRlMTVmMTUxNTc1ZSIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiaGFpaGFpQGdtYWlsLmNvbSIsImlhdCI6MTY1MzM3NTIyOCwiZXhwIjoxNjUzNDYxNjI4fQ.Bxt76z0ndwD_hPbUmYEfWZzx5eAx6Q8YBueZKtE0RBY
+
+###
+PUT http://localhost:4000/api/user/62847faa7dd04b76b0bc4897
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyODQ3ZmFhN2RkMDRiNzZiMGJjNDg5NyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjUyODUwOTY0fQ.SwpcWnyD1-5FR-NssdJj8wNaESc-NPyc2iZgYMgSd0Q
+
+{
+     "email": "Ha",
+    "name": "Ha"
+}
+
+###
+POST http://localhost:4000/api/customer
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGRiN2NjMzcxYmU5NmI2NzdmMzlhNCIsInJvbGUiOiJ1c2VyIiwiZW1haWwiOiJudW51QGdtYWlsLmNvbSIsImlhdCI6MTY1MzQ1NTY4NywiZXhwIjoxNjUzNTQyMDg3fQ.sYjta9cyUCMmpu60-lgfLJctY9D2wuIWGMYVxkPyLws
+
+{
+   
+    "phone": "0963353585683"  
+}
+
+###
+GET http://localhost:4000/api/customer
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGQ5NTU4NDFhNGRiNWU5YjM0ZGRmOCIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoibmFtbmFtQGdtYWlsLmNvbSIsImlhdCI6MTY1MzQ1NTcyMywiZXhwIjoxNjUzNTQyMTIzfQ.S-wA9EJgN0Ds2GX8ncpKiBQRpkraC2ZxfTVukug0or4
+###
+delete http://localhost:4000/api/customer/6285cb987f3a626a4d7ec1df
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGE4ODU0ODk2NjlkOTk3YmQ1ZWY0MCIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiTWFuaCIsImlhdCI6MTY1MzI3OTI0OSwiZXhwIjoxNjUzMzY1NjQ5fQ.jj1KSk17pRdmngQxvboFdk-zukbkB0yo1S0cDtSXSAY
+###
+PUT http://localhost:4000/api/customer/628c6993c06a28648a30e7c8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGM2NzBkN2VjNDQ4MWI5NTE0ZTAyYSIsInJvbGUiOiJ1c2VyIiwiZW1haWwiOiJuYW1uYW1AZ21haWwuY29tIiwiaWF0IjoxNjUzMzY5MjA2LCJleHAiOjE2NTM0NTU2MDZ9.89aRge9E86ezQ2oHECAuDQaV--HIyzFkBq3QY6KfH5I
+Content-Type: application/json;
+
+{      
+    "phone": "0123456789"    
+}
+
+###
+POST http://localhost:4000/api/role
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTQ5NTVhZjY0ZWU5NDFhYzdlOTVjYiIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoibmFtbmFtQGdtYWlsLmNvbSIsImlhdCI6MTY1MzkwNDg4OSwiZXhwIjoxNjUzOTkxMjg5fQ._o3X3h-deFf_vvVXsSSs1-OTqFAJsIk1_mwtwjij9Wc
+
+{
+    "roleId": "10",
+    "roleType": "admin",
+    "rights": [ "create-user",
+  "create-customer",
+  "create-role",
+  "get-users",
+  "get-customers",
+  "get-roles",
+  "delete-user",
+  "delete-customer",
+  "delete-role",
+  "update-user",
+  "update-customer",
+  "update-role"]  
+}
+
+###
+GEt http://localhost:4000/api/role
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOGQ5NTU4NDFhNGRiNWU5YjM0ZGRmOCIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoibmFtbmFtQGdtYWlsLmNvbSIsImlhdCI6MTY1MzYxNzIyMCwiZXhwIjoxNjUzNzAzNjIwfQ.6Nu8AEGFxezOQhbP1X_ekM_KpPwyNMNftfLtvEm_OY8
