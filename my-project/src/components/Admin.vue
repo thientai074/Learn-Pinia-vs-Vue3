@@ -52,8 +52,6 @@ export default {
       userStore.getAllUsers();
     });
 
-    console.log("coca", Cookies.get("token"));
-
     const users = computed(() => {
       return userStore.users;
     });

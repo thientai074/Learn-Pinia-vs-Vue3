@@ -43,7 +43,6 @@ export default {
 
     // @ts-ignore
     const handleOpenUpdateRole = (value) => {
-      console.log("valueA", value);
       roleToUpdate.value = value.roleUpdate;
       isOpenUpdateRole.value = value.openUpdateRole;
     };

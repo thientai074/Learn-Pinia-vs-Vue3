@@ -18,7 +18,7 @@ export const useRoleStore: any = defineStore({
   actions: {
     async getAllRoles() {
       const res = await requestGetAllRoles();
-      console.log("role", res.data)
+
       if (res.data.success) {
         this.roles = res.data.data;
         this.message = res.data.message;

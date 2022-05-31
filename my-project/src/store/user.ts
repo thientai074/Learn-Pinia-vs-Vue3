@@ -18,7 +18,6 @@ export const useUserStore: any = defineStore({
   actions: {
     async getAllUsers() {
       const res = await requestGetAllUsers();
-      console.log("avav", res.data)
 
       if (res.data.success) {
         this.users = res.data.data;

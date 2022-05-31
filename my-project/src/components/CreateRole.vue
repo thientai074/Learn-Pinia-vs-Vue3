@@ -64,8 +64,6 @@ export default {
         roleId: roleId.value,
       };
 
-      console.log("roleRight", rights.value);
-
       roleStore.createRole(roleForm);
       roleId.value = "";
       roleType.value = "";
